@@ -9,11 +9,43 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/.gitattributes",
+		"oF": 1
+		},
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/.gitignore",
+		"oF": 1
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/build",
 		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "/build/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/src/404.html": {
 		"cB": 0,
@@ -332,7 +364,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_gray",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 563763756.95472705
+	"lastBuiltDate": 565580620.98840904
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
