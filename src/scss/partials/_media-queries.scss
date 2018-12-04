@@ -1,0 +1,89 @@
+/* Tablet & Large Phones */
+@media (max-width: 768px) {
+
+    main {
+        margin: 30px auto;
+    }
+
+    header {
+        #nav-container {
+            order: 3;
+            position: absolute;
+            top: 50px;
+            padding: 15px;
+            width: 100vw;
+            background: #f5f5f5;
+            border-top: 1px solid #e8e8e8; 
+        }
+
+        #extras-menu .tooltip .tooltiptext { 
+            display: none; 
+        }
+
+    } // End header
+        
+    #card {
+        width: 300px;
+        height:240px;
+        padding: 0 0 70px 0;
+        margin: 10% auto 10% auto;
+
+        #color-info {
+            margin: 20px 15px;
+        }
+   
+       #color-info div {
+            display: none;
+        }
+    }
+
+     #controls {
+         margin: 0 auto;
+         width: 300px;
+
+        #generate-button {order: 1;}
+        #back-button {order: 2;}
+        #copy-button {order: 3;}
+
+        #copy-button, #back-button {
+            width: 147.5px;
+            margin-top: 10px;
+            word-spacing: normal;
+
+            svg, img {
+                margin-right: 7.5px;
+            }
+
+        } // End copy and back buttons
+
+    } /* End controls */
+
+} 
+
+/* Small Phones */
+@media (max-width: 350px) {
+
+    #navigation a {
+        padding: 10px 25px;
+    }
+
+    #card {
+        width: 250px;
+        height:200px;
+        padding: 0 0 50px 0;
+        margin: 12% auto 12% auto;
+
+        #color-info {
+            font-size: 22px;
+            margin: 12.5px 10px;
+        }
+    }
+
+      #controls {
+          width: 250px;
+      }
+
+      #controls #copy-button, #controls #back-button {
+          width: 122.5px;
+      }
+}

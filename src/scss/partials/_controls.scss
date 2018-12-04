@@ -1,0 +1,66 @@
+#controls {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    button {
+        background-color: #576574;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        outline: none;
+        cursor: pointer;
+        word-spacing: 5px;
+        font-size: 12px;
+        margin: 0;
+        height: 37px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 200ms;
+        font-size: 13px;
+    }
+
+    button:active {
+        transform: scale(0.98);
+    }
+
+    #generate-button { 
+        width: 300px; 
+
+        &:hover {
+            background-color: #485460;
+        }
+
+        &:hover svg {
+            transform: rotate(120deg);
+        }
+
+        svg {
+            transition: all 300ms ease-in-out; 
+            margin-right: 7px;
+        }
+    
+    } /* End generate-button*/
+
+    #back-button, #copy-button {
+        background-color: #909ca8;
+        width: 37px;
+    }
+
+    #back-button:hover, #copy-button:hover { 
+        background-color: #828f9b; 
+    }
+
+    #copy-icon {
+        margin: 1px 0 0 2px;
+    }
+
+    #back-icon {
+        margin: 1px 0 0 0;
+    }
+
+} /* End controls */
